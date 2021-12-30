@@ -70,3 +70,34 @@ button {
   border: none;
   cursor: pointer;
 }
+
+@media (min-width: 770px) {
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+  }
+  button {
+    width: auto;
+    padding: 1em 2.5em;
+  }
+}
+
+@media (min-width: 1260px) {
+  body {
+    display: flex;
+  }
+  .left-col,
+  .right-col {
+    height: 100vh;
+    width: 50%;
+  }
+
+  .left-col .content {
+    text-align: right;
+  }
+  .right-col {
+    display: grid;
+    place-items: center;
+  }
+}
