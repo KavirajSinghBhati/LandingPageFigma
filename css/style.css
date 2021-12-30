@@ -41,3 +41,32 @@ html {
   font-size: 4rem;
   margin-bottom: 5.125rem;
 }
+
+.content p {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 0.77em;
+}
+
+input {
+  width: 100%;
+  background-color: #ededed;
+  border: 1px solid #c7c7c7;
+  outline: none;
+  padding: 0.75rem;
+  margin-bottom: 2.5em;
+}
+
+button {
+  width: 100%;
+  background: #5200ff;
+  font-size: 1.125rem;
+  padding: 1em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
